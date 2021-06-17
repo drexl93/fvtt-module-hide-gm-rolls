@@ -77,9 +77,9 @@ class HideGMRolls {
 			total.removeClass('critical');
 			total.removeClass('fumble');
 		}
-		const PF2etags = html.find('div.tags');
-		if (PF2etags) {
-			PF2etags.remove();
+		const pf2etags = html.find('div.tags');
+		if (pf2etags) {
+			pf2etags.remove();
 		}
 		if (game.modules.get('betterrolls5e')?.active) {
 			const success = html.find('.success');
