@@ -88,6 +88,8 @@ class HideGMRolls {
 			if (failure) failure.removeClass('failure');
 			const flavor = html.find('.flavor-text.inline');
 			if (flavor) flavor.remove();
+			const dieIcon = html.find('span.die-icon')
+			if (dieIcon) dieIcon.remove();
 		}
 	}
 
